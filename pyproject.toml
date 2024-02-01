@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "modelmerging"
+version = "0.1.0"
+description = ""
+authors = ["MLS <mls@damvad.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mergekit = {git = "https://github.com/cg123/mergekit.git"}
+huggingface-hub = "^0.20.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
